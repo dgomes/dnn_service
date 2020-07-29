@@ -1,0 +1,1 @@
+docker run --name=dnn_fs_monitor-1 --hostname=dnn_fs_monitor -e "LOGGING_LEVEL=debug" -e "TZ=Europe/Lisbon" --env="LANG=C.UTF-8" --env="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" --volume="/media/Cameras/motion:/monit:rw" --network=bridge --restart= --detach=true -t diogogomes/dnn_fs_monitor:latest /usr/bin/python3 /app/main.py

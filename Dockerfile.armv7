@@ -1,4 +1,4 @@
-FROM czentye/opencv-video-minimal 
+FROM diogogomes/opencv-video-minimal-armv7 
 MAINTAINER Diogo Gomes <diogogomes@gmail.com> 
 
 # -e "TX=Europe/Lisbon"
